@@ -44,6 +44,8 @@ section.firstMeet div.firstDays {
     background-color: rgba(40, 40, 40, 0.7);
     justify-content: center;
     text-align: center;
+    color: white;
+    font-size: 3em;
 }
 
 section.separatePartion {
