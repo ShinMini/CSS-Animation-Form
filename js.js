@@ -1,6 +1,7 @@
 /** @format */
 // 1910년 1월 1일 00:00일을 기준으로 now 객체의 시간까지 시간이 얼마나 흘렀는지를 밀리초로 표시해준다.
 
+// 첫만남
 const firstMeet = new Date("2021-12-24");
 const now = new Date();
 
@@ -18,7 +19,9 @@ const passedDay = Math.round(passedTime / (1000 * 60 * 60 * 24)) + 1;
 
 console.log(passedDay);
 
-
+let exampleValue = document.querySelector(".firstDays");
+exampleValue.innerText = "21.12.24";
+console.log(exampleValue);
 
 function CalculateDay(greetingDay) {
   let greetingDayResult = toFirst + this.greetingDay;

@@ -10,7 +10,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: rgba(44, 50, 70, 0.9);
+    background-color: rgba(144, 123, 190, 0.2);
 }
 
 a {
@@ -22,35 +22,50 @@ ul, ol, li {
 }
 
 section.firstMeet {
+    border: rgba(80, 90, 70, 0.4) solid 0.17em;
     margin: 0.7em auto;
     background-color: rgba(94, 130, 70, 0.4);
     display: block;
+    position: flex;
     box-sizing: border-box;
     width: 40%;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1px rgb(10, 20, 10);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 section.firstMeet h1 {
-    color:rgba(104, 70, 170, 0.9);
+    color:rgba(54, 35, 57, 0.9);
     padding-top: 20px;
     text-align: center;
-    text-shadow: 5px 5px 5px rgb(100, 100, 100);
+    text-shadow: 2px 2px 2px rgb(100, 100, 100);
 }
 
 section.firstMeet div.firstDays {
+    border: rgba(80, 40, 70, 0.6) solid 0.17em;
     margin-top: 0.5em;
     width: 60%;
-    height: 40%;
-    background-color: rgba(40, 40, 40, 0.7);
-    justify-content: center;
+    background-color: rgba(123, 110, 130, 0.8);
     text-align: center;
-    color: white;
-    font-size: 3em;
-    border-radius: 5px;
+    color: rgba(90, 40, 40, 0.79);
+    padding: 0.5em;
+    font-size: 2.1em;
+    text-shadow: 2px 2px 2px rgba(190, 190, 190, 0.7);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 4px 4px 1px rgba(30, 20, 20, 0.5);
 }
 
 section.separatePartion {
+    border: rgba(90, 100, 90, 0.6) solid 0.3em;
+    box-shadow: 5px 5px 1px rgba(10, 10, 10, 0.7);
     border-radius: 5px;
     width: 40%;
     height: 2.6em;
@@ -68,12 +83,19 @@ section.separatePartion article {
     text-shadow: 3px 3px rgba(100, 100, 100, 0.7);
     font-size: 1.3em;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 section.calculator {
+    box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.7);
+    border: rgba(90, 160, 90, 0.2) solid 0.4em;
+    padding-top: 0.17em;
     border-radius: 20px;
     margin: 0.7em auto;
-    background-color: rgba(94, 130, 70, 0.2);
+    background-color: rgba(94, 160, 90, 0.17);
     display: grid;
     box-sizing: border-box;
     width: 40%;
@@ -88,10 +110,11 @@ section.calculator {
 section.calculator div {
     width: 80%;
     height: 80%;
-    background-color:rgba(50, 50, 200, 0.1);
+    background-color:rgba(125, 136, 180, 0.8);
     border-radius: 20px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.55);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
