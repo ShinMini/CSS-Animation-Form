@@ -10,7 +10,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: rgba(34, 50, 90, 0.3);
+    background-color: rgba(44, 50, 70, 0.9);
 }
 
 a {
@@ -28,6 +28,7 @@ section.firstMeet {
     box-sizing: border-box;
     width: 40%;
     height: 200px;
+    border-radius: 20px;
 }
 
 section.firstMeet h1 {
@@ -38,7 +39,7 @@ section.firstMeet h1 {
 }
 
 section.firstMeet div.firstDays {
-    margin-top: 1.2em;
+    margin-top: 0.5em;
     width: 60%;
     height: 40%;
     background-color: rgba(40, 40, 40, 0.7);
@@ -46,23 +47,31 @@ section.firstMeet div.firstDays {
     text-align: center;
     color: white;
     font-size: 3em;
+    border-radius: 5px;
 }
 
 section.separatePartion {
+    border-radius: 5px;
     width: 40%;
     height: 2.6em;
     background-color: gray;
     box-sizing: border-box;
     align-items: center;
     display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 section.separatePartion article {
     text-shadow: 3px 3px rgba(100, 100, 100, 0.7);
     font-size: 1.3em;
+    border-radius: 20px;
 }
 
 section.calculator {
+    border-radius: 20px;
     margin: 0.7em auto;
     background-color: rgba(94, 130, 70, 0.2);
     display: grid;
@@ -70,10 +79,19 @@ section.calculator {
     width: 40%;
     height: 600px;
     grid-template-columns: repeat(25, 4);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 section.calculator div {
     width: 80%;
     height: 80%;
     background-color:rgba(50, 50, 200, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }

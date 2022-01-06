@@ -11,10 +11,15 @@ const passedTime = toNow - toFirst;
 
 // Math.round 함수를 이용해서, 결과값을 반올림해준 뒤, 변수에 저장.
 // 1000ms * 60second * 60minute * 24hour
-const passedDay = Math.round(passedTime / (100 * 60 * 60 * 24));
+const passedDay = Math.round(passedTime / (1000 * 60 * 60 * 24)) + 1;
 
 // console.log(passedDay);
 // 저장한 값을 화면에 표시해줌,
 
-document.querySelector("firstMeet");
-console.log(firstMeetDiv);
+console.log(passedDay);
+
+
+
+function CalculateDay(greetingDay) {
+  let greetingDayResult = toFirst + this.greetingDay;
+}
