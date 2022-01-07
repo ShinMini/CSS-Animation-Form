@@ -99,26 +99,24 @@ section.separatePartion article {
 }
 
 section.calculator {
-    width: 40%;
-    height: 600px;
-    padding-top: 0.17em;
-    margin: 0.7em auto;
-    background-color: rgba(94, 160, 90, 0.17);
+        width: 40%;
 
-    display: grid;
-    grid-template-columns: repeat(25, 4);
-    
-    box-sizing: border-box;
-    border: rgba(90, 160, 90, 0.2) solid 0.4em;
-    border-radius: 20px;
+        padding: 1.77em 0;
+        margin: 0.7em auto;
 
-    box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.7);
+        box-sizing: border-box;
+            box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.7);
+
+        background-color: rgba(94, 160, 90, 0.17);
+
+        display: grid;
+        grid-template-columns: repeat(25, 4);
+
+        border: rgba(90, 160, 90, 0.2) solid 0.4em;
+        border-radius: 20px;
 }
 
 section.calculator div {
-    width: auto;
-    height: auto;
-
     padding: 0.8em;
         padding-right: 2em;
         padding-left: 2em;
@@ -128,29 +126,33 @@ section.calculator div {
 
     font-size: 1.4em;
         text-shadow: 0.15em 0.12em 0.12em rgba(1, 1, 1, 0.8);
-    
+
     display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 
     border-radius: 20px;
     box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.55);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
-section.firstMeet section.dotBar span{
+section.firstmeet section.dotbar span{
     padding-right: 0.2em;
     color: rgb(97, 52, 52);
-    font-size: 1.1em;
+    font-size: 0.3em;
 }
 
-section.firstMeet section.dotBar span:nth-child(1){
+section.firstmeet section.dotbar span:nth-child(1){
     color: black;
 }
 
-section.firstMeet section.dotBar span:nth-child(2){
+section.firstmeet section.dotbar span:nth-child(2){
     color: black;
 }
 
-section.firstMeet section.dotBar span:nth-child(3){
+section.firstmeet section.dotbar span:nth-child(3){
     color: black;
 }
