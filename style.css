@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Licorice&family=Vujahday+Script&display=swap');
+
 * {
     margin: auto;
     padding: auto;
@@ -10,7 +12,7 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: rgba(144, 123, 190, 0.2);
+    background-color: rgba(244, 223, 290, 0.35);
 }
 
 a {
@@ -39,30 +41,37 @@ section.firstMeet {
 }
 
 section.firstMeet h1 {
-    color:rgba(54, 35, 57, 0.9);
-    padding-top: 20px;
+    color: rgba(254, 255, 257, 0.9);
+    padding-top: 0.14em;
     text-align: center;
-    text-shadow: 2px 2px 2px rgb(100, 100, 100);
+    text-shadow: 3px 3px 2px rgb(100, 100, 100);
+    font-size: 2.7em;
+    font-family: 'Vujahday Script', cursive;
 }
 
 section.firstMeet div.firstDays {
-    border: rgba(80, 40, 70, 0.6) solid 0.17em;
-    margin-top: 0.5em;
-    width: 60%;
-    background-color: rgba(123, 110, 130, 0.8);
-    text-align: center;
-    color: rgba(90, 40, 40, 0.79);
-    padding: 0.5em;
-    font-size: 2.1em;
-    text-shadow: 2px 2px 2px rgba(190, 190, 190, 0.7);
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    width: 40%;
+    margin-top: 0.3em;
+    color: rgba(9, 9, 9, 0.99);
+    background-color: rgba(183, 180, 180, 0.8);
+    border: rgba(180, 140, 170, 0.2) solid 0.10em;
     box-shadow: 4px 4px 1px rgba(30, 20, 20, 0.5);
+    text-shadow: 3px 3px 2px rgba(190, 190, 190, 0.9);
+    border-radius: 11px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    text-align: center;
+    font-size: 2.3em;
+    font-family: 'Assistant', sans-serif;
 }
-
+section.firstMeet section.dotBar {
+    margin-top: 0.5em;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    width: 10%;
+}
 section.separatePartion {
     border: rgba(90, 100, 90, 0.6) solid 0.3em;
     box-shadow: 5px 5px 1px rgba(10, 10, 10, 0.7);
@@ -117,4 +126,22 @@ section.calculator div {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+section.firstMeet section.dotBar span{
+    padding-right: 0.2em;
+    color: rgb(97, 52, 52);
+    font-size: 1.1em;
+}
+
+section.firstMeet section.dotBar span:nth-child(1){
+    color: black;
+}
+
+section.firstMeet section.dotBar span:nth-child(2){
+    color: black;
+}
+
+section.firstMeet section.dotBar span:nth-child(3){
+    color: black;
 }

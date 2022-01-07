@@ -17,12 +17,18 @@ const passedDay = Math.round(passedTime / (1000 * 60 * 60 * 24)) + 1;
 // console.log(passedDay);
 // 저장한 값을 화면에 표시해줌,
 
-console.log(passedDay);
-
-let exampleValue = document.querySelector(".firstDays");
-exampleValue.innerText = "21.12.24";
-console.log(exampleValue);
+const firstMeetingDay = firstYear + "." + firstMonth + "." + firstDate;
 
 function CalculateDay(greetingDay) {
   let greetingDayResult = toFirst + this.greetingDay;
+
 }
+
+function firstMeetingFunction(){
+  const firstYear = firstMeet.getFullYear();
+  const firstMonth = firstMeet.getMonth() + 1;
+  const firstDate = firstMeet.getDate();
+  const firstMeetingDay = firstYear + "." + firstMonth + "." + firstDate;
+}
+const exampleValue = document.querySelector(".firstDays");
+exampleValue.innerText = firstMeetingDay;
