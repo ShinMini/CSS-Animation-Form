@@ -99,33 +99,42 @@ section.separatePartion article {
 }
 
 section.calculator {
-    box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.7);
-    border: rgba(90, 160, 90, 0.2) solid 0.4em;
-    padding-top: 0.17em;
-    border-radius: 20px;
-    margin: 0.7em auto;
-    background-color: rgba(94, 160, 90, 0.17);
-    display: grid;
-    box-sizing: border-box;
     width: 40%;
     height: 600px;
+    padding-top: 0.17em;
+    margin: 0.7em auto;
+    background-color: rgba(94, 160, 90, 0.17);
+
+    display: grid;
     grid-template-columns: repeat(25, 4);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    
+    box-sizing: border-box;
+    border: rgba(90, 160, 90, 0.2) solid 0.4em;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.7);
 }
 
 section.calculator div {
-    width: 80%;
-    height: 80%;
+    width: auto;
+    height: auto;
+
+    padding: 0.8em;
+        padding-right: 2em;
+        padding-left: 2em;
+
     background-color:rgba(125, 136, 180, 0.8);
+    color: #ffffff;
+
+    font-size: 1.4em;
+        text-shadow: 0.15em 0.12em 0.12em rgba(1, 1, 1, 0.8);
+    
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
     border-radius: 20px;
     box-shadow: 5px 5px 1px rgba(10, 20, 30, 0.55);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
 }
 
 section.firstMeet section.dotBar span{
