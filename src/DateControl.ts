@@ -1,24 +1,21 @@
 /** @format */
 
 public class DateControl {
+
 /* firstMeet: save first meeting day(21.12.24),now: save now time value => in Date type */
-public const firstMeet: Date = new Date("2021-12-24");
-public const NowTime: Date = new Date();
-
 // {toNow: save now date time , toFirst: save first meeting date } => number type
-public const toNow: number = this.NowTime.getTime();
-public const toFirst: number = this.firstMeet.getTime();
-
 // PassedTime: calculate d-day time function 
-public PassedTime = function(NowTime: number, FirstMeetTime:  number):number{
+public PassedTime = function(FirstMeetTime: number): number {
+  {
+    const firstMeet: number= new Date(FirstMeetTime).getTime();
+    const NowTime: number= new Date().getTime();
+    const dateTimeSetting: number = (1000 * 60 * 60* 24) + 1;
+  }
 
-  let passedTimeFunctionResult: number = NowTime - FirstMeetTime;
-  return passedTimeFunctionResult;
+  return this.NowTime - this.firstMeet / this.dateTimeSetting;
 }
-
+"2021-12-24"
 public const passedTimeResult: number = this.PassedTime(this.toNow, this.toFirst);
-
-dateTimeSetting: number = (1000 * 60 * 60* 24) + 1;
 
 // Math.round 함수를 이용해서, 결과값을 반올림해준 뒤, 변수에 저장.
 // 1000ms * 60second * 60minute * 24hour
