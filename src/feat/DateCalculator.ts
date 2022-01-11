@@ -1,45 +1,30 @@
 /** @format */
 
-public class DateControl {
+class DateCalculator {
   constructor(private firstMeeting_Date: string) {
+    firstMeeting_Date  // 유저로부터 받아온 첫날 데이트값 저장.
+  }
 
-    private let DateControls: string[] = [
-       firstMeeting_Date
-    ];
+  CalculatePassedTime = function (FMTD: string): number {
+    // 첫날부터 현재까지 얼마나 지났는지 계산해주는 함수
+    {
+      const dateTimeSetting: number = 1000 * 60 * 60 * 24 + 1; // set times variable -> number(ms)
+      const firstMeet: number = new Date(FMTD).getTime(); // set first meeting,
+      const nowTime: number = new Date().getTime(); // set now time
+    }
+    return Math.round((this.nowTime - this.firstMeet) / this.dateTimeSetting); // 계산된 값을 반환
   };
 
-public PassedTime = function(FMTD: string): number {
-  { 
-    const dateTimeSetting: number = (1000 * 60 * 60* 24) + 1;   // dateTimeSetting: set times variable -> number(ms)
-    const firstMeet: number= new Date(FMTD).getTime(); // firstMeet: set first meeting,
-    const nowTime: number= new Date().getTime();  //  nowTime: set now time
-  }
-  return Math.round((this.nowTime - this.firstMeet) / this.dateTimeSetting);
+  PrintFirstMeeting = function (savePassedTime: Date): string {
+    // 첫 만남일 00 00 00 형식의 string 값으로 반환
+    const firstYear: number = savePassedTime.getFullYear();
+    const firstMonth: number = savePassedTime.getMonth() + 1;
+    const firstDate: number = savePassedTime.getDate();
+    const firstMeetingDay: string =
+      firstYear + "." + firstMonth + "." + firstDate;
+
+    return firstMeetingDay;
+  };
 }
 
-// save passed time value
-public const savePassedTime: number = this.PassedTime(this.firstMeeting_Date);
-// const exampleValue: string = this.PassedTime("2021-12-24");
-
-
-
-public FirstMeetingFunction = function(savePassedTime: Date): object {
-  const firstYear: number = savePassedTime.getFullYear();
-  const firstMonth: number = savePassedTime.getMonth() + 1;
-  const firstDate: number= savePassedTime.getDate();
-  const firstMeetingDay = firstYear + "." + firstMonth + "." + firstDate;
-
-  // firstDateSet = Have firstMeeting Day's informations.
-  const firstDateSet: any = [
-    firstYear, 
-    firstMonth, 
-    firstDate, 
-    firstMeetingDay
-  ];
-  return firstDateSet;
-}
-
-const firstMeetingFunctionEx: any[] = [ this.FirstMeetingFunction(this.savePassedTime];
-
-}
-export default {DateControl};
+export default { DateCalculator };
