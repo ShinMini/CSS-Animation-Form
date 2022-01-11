@@ -1,5 +1,5 @@
 /** @format */
-import DotControl from DotControl;
-import DateControl from DateControl;
+import PannelControl from PannelControl ;
+import DateCalculator from DateCalculator;
 
 
