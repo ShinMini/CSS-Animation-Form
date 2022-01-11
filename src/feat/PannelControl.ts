@@ -1,9 +1,6 @@
 /** @format */
 
-class DotControl {
-  constructor(props) {
-    this.props = props;
-  }
+class PannelControl{
 
   DotCennectContent() {
     // 도트 클래스값과 아이디값과 컨텐츠별 아이디 값을 연결
@@ -26,4 +23,4 @@ class DotControl {
   }
 }
 
-export default {DotControl};
+export default {PannelControl};
