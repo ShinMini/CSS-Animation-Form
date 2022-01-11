@@ -41,12 +41,5 @@ public FirstMeetingFunction = function(savePassedTime: Date): object {
 
 const firstMeetingFunctionEx: any[] = [ this.FirstMeetingFunction(this.savePassedTime];
 
-function CalculateDay(greetingDay) {
-
-  let greetingDayResult = toFirst + this.greetingDay;
 }
-
-const exampleValue = document.querySelector(".firstDays");
-exampleValue.innerText = firstMeetingDay;
-}
-export default
+export default {DateControl};
