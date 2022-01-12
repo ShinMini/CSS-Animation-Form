@@ -6,11 +6,9 @@
 }
 
 body {
-    display: block;
     box-sizing: border-box;
     width: 100%;
     position: relative;
-    align-items: center;
     justify-content: center;
     background-color: rgba(244, 223, 290, 0.35);
 }
