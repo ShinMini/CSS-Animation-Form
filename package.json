@@ -1,4 +1,16 @@
 {
+  "name": "JavaScript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Toy Project for my gf",
+  "main": "./src/Main.js",
+  "lockfileVersion": 2,
+  "requires": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinMini/JavaScript.git"
+  },
+  "author": "ShinMini",
   "devDependencies": {
     "@types/node": "^17.0.8",
     "ts-node": "^10.4.0",
