@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Licorice&family=Vujahday+Script&display=swap');
-@import url('./Main.css');
+@import 'Main.css';
+@import 'Section.css';
 
 .Main-btn {
     width: 100px;
