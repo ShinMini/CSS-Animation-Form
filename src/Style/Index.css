@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Licorice&family=Vujahday+Script&display=swap');
 @import 'Main.css';
 @import 'Section.css';
+@import 'Button.css';
 
-.Main-btn {
-    width: 100px;
-    height: 50px;
-    
-    background-color: purple;
-
-    align-items: center;
-    justify-content: center;
-
-    display: felx;
-}
