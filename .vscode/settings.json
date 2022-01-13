@@ -1,0 +1,11 @@
+{
+    "editor.fontSize": 17,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.tree.indent": 15,
+    "workbench.startupEditor": "none",
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    }
+}

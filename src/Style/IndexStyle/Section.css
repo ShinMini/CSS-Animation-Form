@@ -1,22 +1,20 @@
+@import '../Animation/transitionX.css';
 
 section.firstMeet {
-    border: rgba(80, 90, 70, 0.4) solid 0.17em;
-    margin: 0.7em auto;
-    background-color: rgba(94, 130, 70, 0.4);
-    display: block;
-    position: flex;
-    box-sizing: border-box;
     width: 40%;
     height: 200px;
-    border-radius: 30px;
+
+    margin: 0.7em auto;
+    
+    display: block;
+    box-sizing: border-box;
+
+    background-color: rgba(94, 130, 70, 0.4);
+
     box-shadow: 5px 5px 1px rgb(10, 20, 10);
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
 }
 
-section.firstMeet h1 {
+section.firstMeet headert st {
     color: rgba(254, 255, 257, 0.9);
     padding-top: 0.14em;
     text-align: center;
@@ -42,6 +40,7 @@ section.firstMeet div.firstDays {
     border: rgba(180, 140, 170, 0.2) solid 0.10em;
     border-radius: 11px;
 }
+
 section.firstMeet section.dotBar {
     width: 10%;
 
@@ -121,22 +120,4 @@ section.calculator div {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-
-section.firstmeet section.dotbar span{
-    padding-right: 0.2em;
-    color: rgb(97, 52, 52);
-    font-size: 0.3em;
-}
-
-section.firstmeet section.dotbar span:nth-child(1){
-    color: black;
-}
-
-section.firstmeet section.dotbar span:nth-child(2){
-    color: black;
-}
-
-section.firstmeet section.dotbar span:nth-child(3){
-    color: black;
 }
