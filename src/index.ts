@@ -1,6 +1,6 @@
 /** @format */
-import DateCalculator from "./feat/DateCalculator.ts";
-import PannelControl from "./feat/PannelControl.ts";
-import IndexControl from "./feat/IndexControl.ts";
+import * as Date from "./feat/DateCalculator"
+import PannelControl from "./feat/PannelControl";
+import IndexControl from "./feat/IndexControl"
 
 // let Panel = new PannelControl();
