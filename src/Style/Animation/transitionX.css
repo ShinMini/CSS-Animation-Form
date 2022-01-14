@@ -1,0 +1,8 @@
+@keyframes moveDot {
+   0% {
+       transform: transition(0, 0);
+   } 
+   100% {
+       transform: transition(20%, 0);
+   }
+}

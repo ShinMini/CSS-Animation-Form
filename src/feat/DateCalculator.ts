@@ -27,4 +27,4 @@ class DateCalculator {
   };
 }
 
-export default { DateCalculator };
+export default DateCalculator;

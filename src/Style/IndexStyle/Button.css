@@ -1,0 +1,16 @@
+div.firstSection {
+    display: flex;
+}
+
+div.firstSection button.Main-btn {
+    width: 100px;
+    height: 50px;
+
+    margin-top: 1em;
+    
+    background-color: aqua;
+
+    align-items: center;
+    justify-content: center;
+}
+
