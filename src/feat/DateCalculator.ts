@@ -1,6 +1,6 @@
 /** @format */
 
-class DateCalculator {
+export default class DateCalculator {
   constructor(private firstMeeting_Date: string) {
     firstMeeting_Date  // 유저로부터 받아온 첫날 데이트값 저장.
   }
@@ -27,4 +27,3 @@ class DateCalculator {
   };
 }
 
-export default DateCalculator;
