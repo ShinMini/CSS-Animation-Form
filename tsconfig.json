@@ -124,6 +124,13 @@
     "strict": true,                                      /* Enable all strict type-checking options. */
     
     // marking!!!
+    /* noImplicitAny:  typesciprt compiler는 기본적으로 f(a, b)처럼 매개변수 a, b에 타입을 명시하지 않은 코드일 경우, 
+    f(a: any, b: any)처럼 암시적으로 any 타입을 설정한 것으로 간주합니다.
+
+    이런 형태의 코드는 타입스크립트 언어의 장점을 사용하는 것이 아니므로, 
+    코드에 문제가 있음을 에러메세지로 compile 시 , console 창을 통해, 알려줍니다.
+    하지만 이러한 방식의 오류 메세지는 직관적이지 아니므로, noImplicitAny 키 값을 false로 설정해,
+    메세지를 보이지 않게 설정할 수 있습니다.  */
     "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied `any` type.. */
 
     // "strictNullChecks": true,                         /* When type checking, take into account `null` and `undefined`. */
@@ -131,13 +138,8 @@
     // "strictBindCallApply": true,                      /* Check that the arguments for `bind`, `call`, and `apply` methods match the original function. */
     // "strictPropertyInitialization": true,             /* Check for class properties that are declared but not set in the constructor. */
 
-    /* typesciprt compiler는 기본적으로 f(a, b)처럼 매개변수 a, b에 타입을 명시하지 않은 코드일 경우, 
-    f(a: any, b: any)처럼 암시적으로 any 타입을 설정한 것으로 간주합니다.
-    이런 형태의 코드는 타입스크립트 언어의 장점을 사용하는 것이 아니므로, 
-    코드에 문제가 있음을 에러메세지로 compile 시 , console 창을 통해, 알려줍니다.
-    하지만 이러한 방식의 오류 메세지는 직관적이지 아니므로, noImplicitAny 키 값을 false로 설정해,
-    메세지를 보이지 않게 설정할 수 있습니다.  */
-    "noImplicitThis": true,                           /* Enable error reporting when `this` is given the type `any`. */
+
+    // "noImplicitThis": true,                           /* Enable error reporting when `this` is given the type `any`. */
     // "useUnknownInCatchVariables": true,               /* Type catch clause variables as 'unknown' instead of 'any'. */
     // "alwaysStrict": true,                             /* Ensure 'use strict' is always emitted. */
     // "noUnusedLocals": true,                           /* Enable error reporting when a local variables aren't read. */
